@@ -1,11 +1,13 @@
 import React from "react";
 import FormikForm from "./FormikForm";
 import "./App.css";
+import RegisterForm from "./RegisterForm";
 
 const App = () => {
   return (
     <div>
-      <FormikForm></FormikForm>
+      {/* <FormikForm></FormikForm> */}
+      <RegisterForm></RegisterForm>
     </div>
   );
 };
